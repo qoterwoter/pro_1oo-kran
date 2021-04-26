@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.no_cat {
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 15px;
+    background-color: rgb(183, 255, 255);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.cats {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cat {
+    background-color: yellow;
+    border-color: blue;
+}
